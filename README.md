@@ -6,12 +6,11 @@
 Inspired from GitHub article:
 
 * How can I split a text file using PowerShell?
-  `https://stackoverflow.com/questions/1001776/how-can-i-split-a-text-file-using-powershell`
+ `https://stackoverflow.com/questions/1001776/how-can-i-split-a-text-file-using-powershell`
 
 ... and the answer from Typhlosaurus (https://stackoverflow.com/users/311372/typhlosaurus)
 
-http://stackoverflow.com/a/11010158/215200
-
+* `http://stackoverflow.com/a/11010158/215200`
 
 ... and awayken (https://stackoverflow.com/users/215200/awayken) who posted the following GitHub gist:
 
