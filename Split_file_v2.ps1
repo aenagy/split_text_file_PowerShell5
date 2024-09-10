@@ -11,7 +11,7 @@ https://gist.github.com/awayken/5861923
 Param(
     [Parameter(Mandatory=$true)]
     [ValidateScript(
-        {Test-Path $_}
+        {Test-Path -Path $_ -PathType Leaf }
     )]
     [string]$inFile
     ,
@@ -42,11 +42,11 @@ if ( $outFile -and $outFile.Length -gt 0)
 {
     if ( Split-Path -Path $outFile -IsAbsolute )
     {
-        [string]$outputFileFolder        = $inputFile.DirectoryName
+        [string]$outputFileFolder    = $inputFile.DirectoryName
 
     } else {
         # https://superuser.com/questions/1660757/how-to-get-current-path-in-powershell-into-a-variable
-        [string]$outputFileFolder        = $PWD.Path
+        [string]$outputFileFolder    = $PWD.Path
     }
     # https://stackoverflow.com/a/9788998
     [string]$outputFileBaseName      = [System.IO.Path]::GetFileName( $outFile )
@@ -84,3 +84,4 @@ try {
 finally {
     $inputFileIo.Close()
 }
+Write-Host "Done."

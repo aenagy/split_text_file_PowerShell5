@@ -1,4 +1,4 @@
-# encodeDecodeBase64
+# splitTextFiles
 
 ## Introduction
 
