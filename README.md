@@ -1,7 +1,6 @@
-# splitTextFiles
+# splitTextFile
 
 ## Introduction
-
 
 Inspired from GitHub article:
 
@@ -21,6 +20,7 @@ Inspired from GitHub article:
 
   `https://gist.github.com/awayken/5861923`
 
+I wrote this because I needed to split large base64 text files.
 
 ## Usage
 
